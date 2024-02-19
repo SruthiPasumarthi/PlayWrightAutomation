@@ -1,0 +1,20 @@
+{
+    "userGmailExtension" : "@gmail.com",
+    "standardEmail" : "Testzztest22@gmail.com",
+    "password" : "Test@123",
+    "userName" : "Sruthi",
+    "day" : "15",
+    "month" : "July",
+    "year" : "2000",
+    "lastName" : "Pasumarthi",
+    "company" : "Paltech",
+    "address1" : "Testing",
+    "address2" : "Tested",
+    "state" : "Telanagan",
+    "city" : "Hyderabad",
+    "zipcode" : "500081",
+    "mobileNumber" : "8978456512",
+    "subject" : "text",
+    "message" : "finally you got this",
+    "reviewMessage" : "Good"
+}
