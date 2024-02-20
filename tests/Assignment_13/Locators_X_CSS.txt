@@ -1,0 +1,106 @@
+TextBox :
+ 
+1.Full Name
+a.CSS Selector >> input[placeholder = 'Full Name']
+b.Xpath >> //input[@placeholder = 'Full Name']
+
+2.Email
+a.CSS Selector >> input[type = 'email']
+b.Xpath >> //input[@id = 'userEmail']
+
+3.Current Address
+a.CSS Selector >> #currentAddress
+b.Xpath >> //textarea[@id = 'currentAddress']
+
+4.Permanent Address
+a.CSS Selector >> #permanentAddress
+b.Xpath >> //textarea[@id = 'permanentAddress']
+
+
+CheckBox: 
+
+1.Home 
+a.CSS Selector >> input[type="checkbox"]
+b.Xpath >> //span[text() = 'Home']//preceding-sibling::span[@class = 'rct-checkbox']
+
+2.Desktop
+a.CSS Selector >>
+b.Xpath >> //span[text() = 'Desktop']//preceding-sibling::span[@class = 'rct-checkbox']
+
+Radio button:
+
+1.Yes 
+a.CSS Selector >> label[for = 'yesRadio']
+b.Xpath >> //label[text() = 'Yes']
+
+2.Impressive
+a.CSS Selector >> label[for = 'impressiveRadio']
+b.Xpath >> //label[text() = 'Impressive']
+
+3.No
+a.CSS Selector >> label[for = 'noRadio']
+b.Xpath >> //label[text() = 'No']
+
+
+Web Tables:
+
+1.kierra@example.com
+a.CSS Selector >> 
+b.Xpath >> //div[text() = 'kierra@example.com']
+
+2.Kierra Salary
+a.CSS Selector >>
+b.Xpath >> //div[text() = 'kierra@example.com']//following-sibling::div[1]
+
+Buttons:
+
+1.Double Click Me
+a.CSS Selector >> #doubleClickBtn
+b.Xpath >> //button[@id = 'doubleClickBtn']
+
+2.Right Click Me
+a.CSS Selector >> #rightClickBtn
+b.Xpath >> //button[text() = 'Right Click Me']
+
+3.Click Me
+a.CSS Selector >> #xAXpJ
+b.Xpath >> //button[@id = 'xAXpJ']
+
+Link Elements:
+
+1.Home
+a.CSS Selector >> a[id = 'simpleLink']
+b.Xpath >> //a[@id = 'simpleLink']
+
+2.HomelzL0e
+a.CSS Selector >> a[id = 'dynamicLink']
+b.Xpath >> //a[@id = 'dynamicLink']
+
+3.Created
+a.CSS Selector >> #created
+b.Xpath >> //a[@id = 'created']
+
+4.No Content
+a.CSS Selector >> #no-content
+b.Xpath >> //a[text() = 'No Content']
+
+5.Moved
+a.CSS Selector >> #moved
+b.Xpath >> //a[@id = 'moved']
+
+6.Bad Request
+a.CSS Selector >> #bad-request
+b.Xpath >> //a[@id = 'bad-request']
+
+7.Unauthorized
+a.CSS Selector >> #unauthorized
+b.Xpath >> //a[@id = 'unauthorized']
+
+8.Forbidden
+a.CSS Selector >> #forbidden
+b.Xpath >> //a[@id = 'forbidden']
+
+
+9.Not Found
+a.CSS Selector >> #invalid-url
+b.Xpath >> //a[text() = 'Not Found']

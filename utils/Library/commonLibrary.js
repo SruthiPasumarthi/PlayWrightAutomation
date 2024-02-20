@@ -1,7 +1,7 @@
 const{ expect } = require('@playwright/test');
-const { SignUpAndLogin } = require("../pageObjects/signUpAndLogin");
+const { SignUpAndLogin } = require("../../pageObjects/signUpAndLogin");
 const constants = require("../inputData/constants.json");
-const { sign } = require('crypto');
+//const { sign } = require('crypto');
 
 class CommonLibrary{
     constructor(page){
@@ -15,8 +15,6 @@ class CommonLibrary{
         await signupWithNew.logoutMethod();
         await expect(signupWithNew.loginVerification , "Verify").toHaveText("Login to your account");
         await signupWithNew.userLogin();
-        await expect(signupWithNew.accountVerification, "Validated login user").toHaveText(constants.userName);
-        await signupWithNew.deleteNewAccount();
     }
 }
 

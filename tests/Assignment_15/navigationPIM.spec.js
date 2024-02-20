@@ -1,8 +1,8 @@
 //ts-check
 
 const { test, expect } = require("@playwright/test");
-const { NavigationPIM } = require("../pageObjects/navigationPIM");
-const { LoginOrangeHrms } = require("../pageObjects/loginOrangeHrms");
+const { NavigationPIM } = require("../../pageObjects/navigationPIM");
+const { LoginOrangeHrms } = require("../../pageObjects/loginOrangeHrms");
 
 test.describe("About total test", ()=>{
     test("Navigate to PIM module", async({ page }) => {

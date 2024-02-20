@@ -1,6 +1,6 @@
 //ts-check
-const { test , expect} = require("@playwright/test");
-const { ContactUs } = require("../pageObjects/contactUs");
+const { test } = require("@playwright/test");
+const { ContactUs } = require("../../pageObjects/contactUs");
 
 test("Validate Contact Us Form" , async({page})=>{
     await page.goto("https://automationexercise.com/");

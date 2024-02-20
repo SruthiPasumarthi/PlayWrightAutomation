@@ -1,5 +1,5 @@
 const { expect } = require("@playwright/test");
-const constants = require("../inputData/constants.json")
+const constants = require("../utils/inputData/constants.json")
 
 class ContactUs{
     constructor(page){

@@ -1,6 +1,6 @@
 //ts-check
 const{ test, expect } = require('@playwright/test');
-const { LoginOrangeHrms } = require("../pageObjects/loginOrangeHrms");
+const { LoginOrangeHrms } = require("../../pageObjects/loginOrangeHrms");
 
 test("Login into Orange HRMS",async({page}) => {
     await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");

@@ -1,6 +1,7 @@
 //ts-check
 const{ test, expect } = require('@playwright/test');
-const { CommonLibrary } = require("../Library/commonLibrary");
+const { SignUpAndLogin } = require("../../pageObjects/signUpAndLogin");
+const { CommonLibrary } = require("../../utils/Library/commonLibrary");
 
 
 test.beforeEach(async ({ page }) => {
@@ -12,4 +13,6 @@ test.beforeEach(async ({ page }) => {
 test("Login", async({ page }) => {
     const login = new CommonLibrary(page);
     await login.commonMethods();
+    const logout = new SignUpAndLogin(page);
+    await logout.logoutMethod();
 });

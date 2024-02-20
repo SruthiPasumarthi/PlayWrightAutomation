@@ -1,7 +1,7 @@
 //ts-check
 const{ test, expect } = require('@playwright/test');
-const { AddProductsToCart } = require("../pageObjects/addProductsToCart");
-const { SignUpAndLogin } = require("../pageObjects/signUpAndLogin");
+const { AddProductsToCart } = require("../../pageObjects/addProductsToCart");
+const { SignUpAndLogin } = require("../../pageObjects/signUpAndLogin");
 
 
 test.beforeEach(async ({ page }) => {

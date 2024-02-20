@@ -1,6 +1,6 @@
 //ts-check
 const{ test } = require('@playwright/test');
-const { AddReview } = require("../pageObjects/addReview");
+const { AddReview } = require("../../pageObjects/addReview");
 
 test.beforeEach(async ({ page }) => {
     await page.goto("https://automationexercise.com/");

@@ -1,5 +1,5 @@
 import { expect } from '@playwright/test';
-const constants = require("../inputData/constants.json")
+const constants = require("../utils/inputData/constants.json")
 
 class AddReview{
     constructor(page){

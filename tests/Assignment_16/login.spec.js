@@ -1,8 +1,7 @@
 //ts-check
 const{ test, expect } = require('@playwright/test');
-const { SignUpAndLogin } = require("../pageObjects/signUpAndLogin");
-const { CommonLibrary } = require("../Library/commonLibrary");
-
+const { CommonLibrary } = require("../../utils/Library/commonLibrary");
+const { SignUpAndLogin } = require("../../pageObjects/signUpAndLogin");
 
 test.beforeEach(async ({ page }) => {
     await page.goto("https://automationexercise.com/");
@@ -10,9 +9,9 @@ test.beforeEach(async ({ page }) => {
 });
 
 
-test.only("Login", async({ page }) => {
+test("Login", async({ page }) => {
     const login = new CommonLibrary(page);
     await login.commonMethods();
-    const logout = new SignUpAndLogin(page);
-    await logout.logoutMethod();
+    const deleted = new SignUpAndLogin(page);
+    await deleted.deleteNewAccount()
 });
